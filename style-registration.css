@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('registration.avif');
+    background-size: cover;
+    background-position: fixed;
+    padding-top: 70px;   
+}
+.navbar {
+    background-color: hsl(211, 96%, 11%); /* Navbar background color */
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #fff; /* Navbar brand (logo) color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff; /* Navbar links color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3; /* Navbar links color on hover */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-group .message {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}

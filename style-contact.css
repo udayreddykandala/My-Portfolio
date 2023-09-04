@@ -1,0 +1,111 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('contact.jpeg');
+    background-size: cover;
+    background-position: fixed;
+    padding-top: 70px;     
+
+}
+.navbar {
+    background-color: hsl(211, 96%, 11%); /* Navbar background color */
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #fff; /* Navbar brand (logo) color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff; /* Navbar links color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3; /* Navbar links color on hover */
+}
+
+.profile_card {
+    height: 30rem;
+    width: 19rem;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile_card img {
+    width: 100%;
+}
+
+.info {
+    background: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    background: white;
+    color: black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.toggleBtn {
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    z-index: 1;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.profession {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 12px;
+}

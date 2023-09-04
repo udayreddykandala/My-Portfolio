@@ -1,0 +1,40 @@
+body {
+    background-image: url('login.jpeg');
+    background-size: cover;
+    padding-top: 70px;   
+    /* Add other background styles here */
+}
+.navbar {
+    background-color: hsl(211, 96%, 11%); /* Navbar background color */
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #fff; /* Navbar brand (logo) color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff; /* Navbar links color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3; /* Navbar links color on hover */
+}
+
+h1{
+    color: aqua;
+    display: block;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}

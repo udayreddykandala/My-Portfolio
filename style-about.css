@@ -1,0 +1,19 @@
+.navbar {
+    background-color: hsl(211, 96%, 11%); /* Navbar background color */
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #fff; /* Navbar brand (logo) color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff; /* Navbar links color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3; /* Navbar links color on hover */
+}
+body{
+    padding-top: 70px; 
+}
